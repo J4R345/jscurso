@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(15, 6, 14);
+        color: yellowgreen;
+        font: normal 20pt Arial;
+    }
+    h1 {
+        color:rgb(109, 196, 196); /*Comentário em CSS*/
+    }
+</style>
+<body>
+
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em maiúsculo fica assim ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em minúsculo fica assim ${nome.toLowerCase()}`)
+    </script>
+
+</body>
+</html>
